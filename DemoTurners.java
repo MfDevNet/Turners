@@ -8,6 +8,13 @@ public class DemoTurners {
         leaf.turn();
         page.turn();
         cake.turn();
+		
+		System.out.println("===============");
+        System.out.println("use Loop");
+        Turner[] turners={leaf,page,cake};
+        for (Turner turner:turners){
+            turner.turn();
+        }
     }
 
 
