@@ -11,7 +11,7 @@ public class DemoTurners {
 		
 		System.out.println("===============");
         System.out.println("use Loop");
-        Turner[] turners={leaf,page,cake};
+        Turner[] turners={leaf,page,cake,new Dog(),new Book()};
         for (Turner turner:turners){
             turner.turn();
         }
